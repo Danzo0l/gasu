@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap");
+.main-auth {
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(0.01%, #676767), color-stop(47.4%, #494949), to(#272727));
+  background: linear-gradient(180deg, #000000 0%, #676767 0.01%, #494949 47.4%, #272727 100%);
+  height: 100%;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  line-height: 90px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.auth-form__form-name {
+  text-align: center;
+  font-size: 55px;
+  background-color: #2AA5A0;
+  background-image: linear-gradient(276.28deg, #97d9e2 45.21%, #19c6d3 99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.auth-form {
+  background-color: rgba(115, 115, 115, 0.35);
+  border-radius: 8px;
+  max-width: 280px;
+  width: 100%;
+  padding: 0 40px;
+  margin: auto;
+}
+
+.auth-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.auth-form .auth-form_button {
+  margin: auto;
+  margin-bottom: 23px;
+  height: 40px;
+  max-width: 160px;
+  width: 100%;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background-color: #686868;
+  color: #4DC6E0;
+  font-weight: inherit;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.auth-form .auth-form_button.active {
+  background-color: #333333;
+}
+
+.auth-form span {
+  line-height: 16px;
+}
+
+.auth-form span a {
+  text-decoration: none;
+  color: #4DC6E0;
+}
+
+.auth-form .last-span-in-form {
+  margin-bottom: 20px;
+}
+
+.auth-form .form-inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.auth-form input {
+  margin-bottom: 20px;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  height: 32px;
+  color: #bacacc;
+  font-family: inherit;
+  font-size: inherit;
+  background: rgba(206, 206, 206, 0.28);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.auth-form input:last-child {
+  margin-bottom: 4px !important;
+}
+
+.auth-form input::before, .auth-form input ::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.auth-form input::-webkit-input-placeholder {
+  font-family: 'Quicksand', sans-serif;
+  color: #BCBCBC;
+  font-size: inherit;
+}
+
+.auth-form input:-ms-input-placeholder {
+  font-family: 'Quicksand', sans-serif;
+  color: #BCBCBC;
+  font-size: inherit;
+}
+
+.auth-form input::-ms-input-placeholder {
+  font-family: 'Quicksand', sans-serif;
+  color: #BCBCBC;
+  font-size: inherit;
+}
+
+.auth-form input::placeholder {
+  font-family: 'Quicksand', sans-serif;
+  color: #BCBCBC;
+  font-size: inherit;
+}
+
+@media (max-width: 767px) {
+  .main-auth {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  .main-auth .auth-form__form-name {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .auth-form {
+    padding: 0 20px;
+  }
+  .auth-form span {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+/*# sourceMappingURL=auth.css.map */
